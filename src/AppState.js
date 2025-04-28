@@ -10,6 +10,8 @@ export const AppState = reactive({
 
   // CHEESE
   cheese: 0,
+  cheesePerClick: 1,
+  autoCheese: 0,
 
   // CHEESE CLICK UPGRADES
    /** @type {import('./models/Upgrades.js').Upgrades[]} */
